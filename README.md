@@ -1,4 +1,3 @@
 # Portfolio
 
-
-![screenshot (1)](https://github.com/Balaramtech/Portfolio/assets/65490609/db19e169-ef76-40ae-ad11-7c7428f6651e)
+![screenshot (1)](https://github.com/Balaramtech/Portfolio/assets/65490609/edaafa19-6024-4e8b-a879-705761a9af92)
