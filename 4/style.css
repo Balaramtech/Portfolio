@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('wallpaper.jpg') "width:100%";
+	overflow: hidden;
+	he
+	background-repeat: no-repeat;
+}
+
+.start{
+	bottom: 0;
+	z-index: 100;
+	width: 5.5%;
+	position: absolute;
+}
+
+.start img{
+	max-width: 80%;
+}
+
+.taskbar{
+	background-color: aliceblue;
+	position: absolute;
+	bottom: 0;
+	z-index: 50;
+}
+
+.taskbar img{
+	max-width: 100%;
+}
+
+.file{
+	position: absolute;
+	left: 32.5%;
+	bottom: 3.5px;
+	z-index: 250;
+}
+
+.file img{
+	max-width: 12.5%;
+}
+
+.chrom{
+	position: absolute;
+	left: 41.7%;
+	bottom: 6px;
+	z-index: 360;
+}
+
+.chrom img{
+	max-width: 5.5%;
+}
+
+.recyclebin{
+	position: absolute;
+	left: 44.8%;
+	bottom: 2px;
+	z-index: 380;
+}
+
+.recyclebin img{
+	max-width: 4.2%;
+}
+
+.taskmenu{
+	position: absolute;
+	bottom: -655px;
+	left: 9px;
+	transition: all 0.5s ease-in-out;
+}
+
+.taskmenu img{
+	max-width: 75%;
+	border-radius: 7px;
+}
+
+.filemenu{
+	position: absolute;
+	bottom: -700px;
+	transition: all 0.5s ease-in-out;
+}
+
+.filemenu img{
+	margin-left: 1%;
+	margin-top: 6px;
+	width: 116%;
+	height: 696px;
+	border-radius: 5px;
+}
+
+.chrommenu{
+	position: absolute;
+	bottom: -1396px;
+	transition: all 0.5s ease-in-out;
+}
+
+.chrommenu img{
+	margin-left: 1%;
+	margin-top: 6px;
+	width: 116%;
+	height: 696px;
+	border-radius: 5px;
+}
+
+.recyclebinmenu{
+	position: absolute;
+	bottom: -2092px;
+	transition: all 0.2s ease-in-out;
+}
+
+.recyclebinmenu img{
+	margin-left: 1%;
+	margin-top: 6px;
+	width: 116%;
+	height: 696px;
+	border-radius: 5px;
+}
+
+/* Breakpoints */
+@media (max-width:2560px) {
+	html {
+        font-size: 55%;
+    }
+
+	body{
+		max-width: 2560px;
+	}
+
+}
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+
+	
+	.taskbar img{
+		margin-bottom: -8.9%;
+		max-width: 116.8%;
+	}
+	
+	.start img{
+		max-width: 71.5%;
+
+	}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment, Reply, Delete And Like system Nested comments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            Nested Comment system with like, reply Chain and Delete
+        </header>
+        <!-- End of Header -->
+
+        <!-- DummyPost -->
+        <img src="https://dummyimage.com/600x360" alt="">
+        <!-- End of DummyPost -->
+
+        <!-- Post Img Like and Comments -->
+        <div class="card">
+            <button id="likeme">LIKE: 0</button>
+            <button id="cmtreply" class="cmtreply" onclick="toggleContent()">COMMENTS</button>
+            <span class="spancmt">Comments</span>
+        </div>
+        <!-- End of Post Img Like and Comments -->
+
+        <!-- Comment and Reply form -->
+        <div id="comments" style="display: none;">
+            <div class="reply-box">
+                <input id="main-reply" placeholder="Enter your Comment"></input>
+                <button id="post-main-reply">Post</button>
+            </div>
+        </div>
+        <!-- End of Comment and Reply form -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

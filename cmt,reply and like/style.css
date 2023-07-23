@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(to left, lightpink, orange, royalblue);
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(0, 255, 255);
+}
+
+button{
+    cursor: pointer;
+}
+
+/* For Img */
+img {
+    margin-top: 2%;
+    margin-left: 29.8%;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Comment and Reply form */
+.card {
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+    padding: 9px;
+}
+
+
+/* For Likes */
+#likeme {
+    width: 16%;
+    padding: .5%;
+    margin-left: 29.8%;
+    font-weight: bold;
+    background: gainsboro;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+#likeme:hover {
+    background: transparent;
+    color: #48cae4;
+    border-radius: 20px;
+    border: 3px solid #48cae4;
+    box-shadow: 0 4px 8px 0 rg ba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+/* Reply form */
+.cmtreply {
+    width: 16%;
+    padding: .5%;
+    font-weight: bold;
+    background: gainsboro;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    margin-left: 53.9%;
+    margin-top: -4%;
+}
+
+.cmtreply:hover {
+    background: transparent;
+    color: #48cae4;
+    border-radius: 20px;
+    border: 3px solid #48cae4;
+    box-shadow: 0 4px 8px 0 rg ba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+.spancmt{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#comments{
+    margin-left: 0;
+}
+
+input {
+    margin-left: 40%;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    width: 30%;
+    font-size: 18px;
+    border-style: none none solid;
+    border-image: initial;
+    background: transparent;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    outline: none;
+}
+
+#post-main-reply{
+    padding: 1%;
+    font-weight: bold;
+    background: gainsboro;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+#post-main-reply:hover {
+    background: transparent;
+    color: #48cae4;
+    border-radius: 15px;
+    border: 3px solid #48cae4;
+    box-shadow: 0 4px 8px 0 rg ba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+/* Reply Details */
+/* Reply Text */
+p{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.forgap{
+    margin-left: 1%;
+    margin-bottom: 3px;
+}
+.reply {
+    font-size: 15px;
+    margin-top: 0.3%;
+    text-align: justify;
+    border-left: .1px solid aqua;
+    border-top: .1px solid aqua;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    transition: 0.3s ease-in;
+  }
+
+  .reply button{
+    padding: 2px;
+    height: auto;
+    transition: 0.3s ease-in;
+    border-radius: 3px;
+  }
+
+  .replies{
+    margin-left: 5px;
+  }
+  
+  .reply button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+.like{
+    padding: 5px;
+    font-size: 15px;
+    transition: 0.3s ease-in;
+}
+
+.like:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+.delete{
+    padding: 5px;
+    font-size: 15px;
+    transition: 0.3s ease-in;
+}
+
+.delete:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease-in;
+}
+
+.post-reply{
+    padding: 5px;
+    font-size: 15px;
+    transition: 0.3s ease-in;
+}
+
+.post-reply:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reply .reply-box {
+    margin-left: 20px;
+    padding: 5px;
+    width: 50%;
+}
+
+.reply-input{
+    margin-left: 4%;
+    margin-top: 10px;
+}

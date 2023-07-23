@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Manga Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Manga Reader</h1>
+        <form id="mangaForm" enctype="multipart/form-data">
+            <label for="logo">LOGO IMAGE<input type="file" name="logo" accept="image/*" required></label>
+            <input type="text" name="title" placeholder="Manga Title" required>
+            <textarea name="description" placeholder="Description" required></textarea>
+            <label for="Mangaphotos">MANGA PHOTOS<input type="file" name="images" accept="image/*" multiple required></label>
+            <input type="number" name="rating" min="1" max="5" step="0.1" placeholder="Rating (1-5)" required>
+            <input type="number" name="chapter" min="1" placeholder="Chapter" required>
+            <button type="submit">Add Manga</button>
+        </form>
+        <div class="manga-list" id="mangaList">
+            <!-- Manga titles will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
